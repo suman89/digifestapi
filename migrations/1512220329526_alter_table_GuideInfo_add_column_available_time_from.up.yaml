@@ -1,3 +1,0 @@
-- args:
-    sql: ALTER TABLE "GuideInfo" ADD COLUMN "available_time_from" timestamptz NUll
-  type: run_sql

@@ -1,9 +1,0 @@
-- args:
-    sql: CREATE TABLE "Booking"("BookingId" integer NOT NULL, "TouristId" integer
-      NOT NULL, "GuideId" integer NOT NULL, "City" text NOT NULL, "BookedFrom" timestamptz
-      NOT NULL, "BookedTo" timestamptz NOT NULL, "BookingStatus" text NOT NULL, PRIMARY
-      KEY ("BookingId") )
-  type: run_sql
-- args:
-    name: Booking
-  type: add_existing_table_or_view

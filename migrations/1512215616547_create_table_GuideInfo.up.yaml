@@ -1,7 +1,0 @@
-- args:
-    sql: CREATE TABLE "GuideInfo"("InformationId" serial NOT NULL, "UserId" integer
-      NOT NULL, "ServingAreaCity" text NOT NULL, PRIMARY KEY ("InformationId") )
-  type: run_sql
-- args:
-    name: GuideInfo
-  type: add_existing_table_or_view
